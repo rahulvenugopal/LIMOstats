@@ -5,3 +5,5 @@
 3. Now, for my 64 channel montage, I gotta figure out what should be the neighbourdist
 4. Documentation says
 > For instance, 0.37 is a good distance for Biosemi standard 128 electrodes configuration. You can check the accuracy of neighbourdist for your electrode montage using the output neighbours
+5. `accs_elecneighbours` uses Euclidan distances and for my chanlc, the maximum distance was 2 and minimum 0
+6. Have to look at each electrode's neighbours and contrast with what [fieldtrip syas](https://www.fieldtriptoolbox.org/example/neighbours/) to finalie the cut-off distance
